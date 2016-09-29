@@ -59,7 +59,7 @@
                 snapchat: '#FFFC00',
                 wechat: '#1ECE29',
                 reddit: '#017AD4',
-                twitter: '#2DAAE1',
+                instagram: '#2DAAE1',
                 hipchat: '#274970',
                 slack: '#423843',
                 handouts: '#70AD46'
@@ -103,7 +103,7 @@
             });
 
         if (!whitelabel) {
-            var brand = $('<a target="_blank" href="https://keyreply.com/chat/?ref=getwidget">get widget</a>')
+            var brand = $('<a target="_blank" href="https://www.hpjtourtravel.info">get widget</a>')
                 .addClass('keyreply-brand')
                 .appendTo(launcher)
                 .click(function(event) {
@@ -317,9 +317,9 @@
                     link = "https://www.reddit.com/message/compose/?to=" + settings.apps.reddit;
                     break;
 
-                case 'twitter':
+                case 'instagram':
                     if (Mobile) {
-                        link = "Instagam://user?screen_name=" + settings.apps.instagram.replace('@', '');
+                        link = "Instagram://user?screen_name=" + settings.apps.instagram.replace('@', '');
                     } else {
                         link = "https://instagram.com/" + settings.apps.instagram.replace('@', '');
                     }
